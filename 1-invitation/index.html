@@ -53,7 +53,7 @@
       height: 88px;
     }
 
-    .section-picture {
+    .section-picture__img {
       display: inline-block;
       width: 254px;
       height: 286px;
@@ -70,10 +70,12 @@
 <body>
 
   <div>
+    <!--WRAPPER-->
     <table class="wrapper">
       <tr>
         <td>
 
+          <!--CANTSEE-->
           <table class="wrapper__cantsee cantsee">
             <tr>
               <td>
@@ -81,10 +83,14 @@
               </td>
             </tr>
           </table>
+          <!--/CANTSEE-->
 
+          <!--BODY-->
           <table class="wrapper__body">
             <tr>
               <td>
+
+                <!--LOGO-->
                 <table class="wrapper__logo">
                   <tr>
                     <td>
@@ -94,7 +100,9 @@
                     </td>
                   </tr>
                 </table>
+                <!--/LOGO-->
 
+                <!--INTRO-->
                 <table class="wrapper__intro intro">
                   <tr>
                     <td>
@@ -108,12 +116,14 @@
                     </td>
                   </tr>
                 </table>
+                <!--/INTRO-->
 
+                <!--INVITE-->
                 <table class="wrapper__invite invite">
                   <tr>
                     <td>
 
-                      <table>
+                      <table class="invite__item">
                         <tr>
                           <td>
                             <h4>июнь</h4>
@@ -139,7 +149,7 @@
                         </tr>
                       </table>
 
-                      <table>
+                      <table class="invite__item">
                         <tr>
                           <td>
                             <a class="invite__img" href="#" target="_blank" title="Вебинар">
@@ -152,7 +162,9 @@
                     </td>
                   </tr>
                 </table>
+                <!--/INVITE-->
 
+                <!--PLAN-->
                 <table class="wrapper__plan plan">
                   <tr>
                     <td>
@@ -165,22 +177,25 @@
 
                   <tr>
                     <td>
-                      <table>
+                      <table class="plan__list">
                         <tr>
                           <td>
                             <h3>План вебинара:</h3>
                           </td>
                         </tr>
+
                         <tr>
                           <td>
                             <p>Кто такой frontend-разработчик?</p>
                           </td>
                         </tr>
+
                         <tr>
                           <td>
                             <p>Какие навыки сейчас востребованы?</p>
                           </td>
                         </tr>
+
                         <tr>
                           <td>
                             <p>Как устроиться в компанию после обучения?</p>
@@ -189,9 +204,12 @@
                       </table>
                     </td>
                   </tr>
+
                 </table>
+                <!--/PLAN-->
 
 
+                <!--HOST-->
                 <table class="wrapper__host host">
                   <tr>
                     <td>
@@ -209,7 +227,7 @@
 
                   <tr>
                     <td>
-                      <p><b>Иван Васильев</b> <br> Frontend-разработчик компании Cats Development</p>
+                      <p class="host__name"><b>Иван Васильев</b> <br> Frontend-разработчик компании Cats Development</p>
                     </td>
                   </tr>
 
@@ -218,139 +236,222 @@
                       <a class="host__btn btn" href="#" target="_blank" title="Зарегистрироваться">Зарегистрироваться на вебинар</a>
                     </td>
                 </table>
+                <!--/HOST-->
 
-                <table class="wrapper__picture">
+                <!--SECTION-PICTURE-->
+                <table class="wrapper__picture section-picture">
                   <tr>
                     <td>
-                      <a class="section-picture" href="#" target="_blank" title="Картинка">
+                      <a class="section-picture__img" href="#" target="_blank" title="Картинка">
                         <img src="img/img_2.png" alt="Картинка">
                       </a>
                     </td>
                   </tr>
                 </table>
+                <!--/SECTION-PICTURE-->
 
+                <!--PRIZES-->
                 <table class="wrapper__prizes prizes">
                   <tr>
                     <td>
                       <h3 class="prizes__title">Среди участников вебинара будут разыграны ценные призы!</h3>
                     </td>
                   </tr>
+
                   <tr>
                     <td>
                       <a class="prizes__btn btn" href="#" target="_blank" title="Зарегистрироваться">Зарегистрироваться</a>
                     </td>
                   </tr>
+
                   <tr>
                     <td>
                       <p class="prizes__text">Количество мест на вебинаре ограничено.</p>
                     </td>
                   </tr>
                 </table>
+                <!--/PRIZES-->
 
+                <!--FOOTER-->
                 <table class="wrapper__footer footer">
                   <tr>
                     <td>
 
-                      <table class="footer__contacts">
+                      <!--FOOTER__INFO-->
+                      <table class="footer__info">
                         <tr>
                           <td>
 
-                            <table class="social">
+                            <!--FOOTER__SOCIAL-->
+                            <table class="footer__social social">
+
+                              <!--SOCIAL__TITLE-->
                               <tr>
                                 <td>
                                   <h4 class="social__title">Мы в социальных сетях</h4>
                                 </td>
                               </tr>
+                              <!--/SOCIAL__TITLE-->
+
+                              <!--SOCIAL__ICONS-->
+                              <tr>
+
+                                <!--SOCIAL__ITEM 1-->
+                                <td>
+                                  <table class="social__item">
+                                    <tr>
+                                      <td>
+                                        <a class="social__icon" href="https://www.facebook.com/" target="_blank" title="facebook">
+                                          <img src="img/social/facebook.png" alt="facebook">
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <!--/SOCIAL__ITEM 1-->
+
+                                <!--SOCIAL__ITEM 2-->
+                                <td>
+                                  <table class="social__item">
+                                    <tr>
+                                      <td>
+                                        <a class="social__icon" href="https://www.instagram.com/" target="_blank" title="instagram">
+                                          <img src="img/social/inst.png" alt="instagram">
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <!--/SOCIAL__ITEM 2-->
+
+                                <!--SOCIAL__ITEM 3-->
+                                <td>
+                                  <table class="social__item">
+                                    <tr>
+                                      <td>
+                                        <a class="social__icon" href="https://www.youtube.com/" target="_blank" title="youtube">
+                                          <img src="img/social/youtube.png" alt="youtube">
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <!--/SOCIAL__ITEM 3-->
+
+                                <!--SOCIAL__ITEM 4-->
+                                <td>
+                                  <table class="social__item">
+                                    <tr>
+                                      <td>
+                                        <a class="social__icon" href="https://web.telegram.org/" target="_blank" title="telegram">
+                                          <img src="img/social/telegram.png" alt="telegram">
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <!--/SOCIAL__ITEM 4-->
+
+                                <!--SOCIAL__ITEM 5-->
+                                <td>
+                                  <table class="social__item">
+                                    <tr>
+                                      <td>
+                                        <a class="social__icon" href="https://vk.com/" target="_blank" title="vkontakte">
+                                          <img src="img/social/vk.png" alt="vkontakte">
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <!--/SOCIAL__ITEM 5-->
+
+                              </tr>
+                              <!--/SOCIAL__ICONS-->
+
+                            </table>
+                            <!--/FOOTER__SOCIAL-->
+
+                            <!--FOOTER__CONTACTS-->
+                            <table class="footer__contacts contacts">
+                              <tr>
+                                <td>
+                                  <h4 class="contacts__title">Свяжитесь с нами</h4>
+                                </td>
+                              </tr>
 
                               <tr>
                                 <td>
-                                  <a class="social__icon" href="https://www.facebook.com/" target="_blank" title="facebook">
-                                    <img src="img/social/facebook.png" alt="facebook">
-                                  </a>
+                                  <a class="contacts__link" href="mailto:study@htmlacademy.ru" target="_blank" title="html academy email">study@htmlacademy.ru</a>
                                 </td>
+                              </tr>
+
+                              <tr>
                                 <td>
-                                  <a class="social__icon" href="https://www.instagram.com/" target="_blank" title="instagram">
-                                    <img src="img/social/inst.png" alt="instagram">
-                                  </a>
-                                </td>
-                                <td>
-                                  <a class="social__icon" href="https://www.youtube.com/" target="_blank" title="youtube">
-                                    <img src="img/social/youtube.png" alt="youtube">
-                                  </a>
-                                </td>
-                                <td>
-                                  <a class="social__icon" href="https://web.telegram.org/" target="_blank" title="telegram">
-                                    <img src="img/social/telegram.png" alt="telegram">
-                                  </a>
-                                </td>
-                                <td>
-                                  <a class="social__icon" href="https://vk.com/" target="_blank" title="vkontakte">
-                                    <img src="img/social/vk.png" alt="vkontakte">
-                                  </a>
+                                  <a class="contacts__link" href="tel:88006907668" target="_blank" title="html academy phone">8-800-690-76-68</a>
                                 </td>
                               </tr>
                             </table>
+                            <!--/FOOTER__CONTACTS-->
+
+                          </td>
+                        </tr>
+                      </table>
+                      <!--/FOOTER__INFO-->
+
+                      <!--FOOTER__USEFUL-->
+                      <table class="footer__useful useful-list">
+
+                        <tr>
+                          <td>
+                            <h4 class="useful-list__title">Полезные ссылки</h4>
                           </td>
                         </tr>
 
                         <tr>
                           <td>
-                            <h4>Свяжитесь с нами</h4>
+                            <a class="useful-list__link" href="https://htmlacademy.ru/" target="_blank" title="Бесплатные вебинары">Бесплатные вебинары</a>
                           </td>
                         </tr>
-                        <tr>
-                          <td>
-                            <a href="mailto:study@htmlacademy.ru" target="_blank" title="html academy email">study@htmlacademy.ru</a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a href="tel:88006907668" target="_blank" title="html academy phone">8-800-690-76-68</a>
-                          </td>
-                        </tr>
-                      </table>
 
-                      <table class="footer__menu menu">
                         <tr>
                           <td>
-                            <h4 class="menu__title">Полезные ссылки</h4>
+                            <a class="useful-list__link" href="https://htmlacademy.ru/" target="_blank" title="Обучающие курсы">Обучающие курсы</a>
                           </td>
                         </tr>
+
                         <tr>
                           <td>
-                            <a class="menu__link" href="https://htmlacademy.ru/" target="_blank" title="Бесплатные вебинары">Бесплатные вебинары</a>
+                            <a class="useful-list__link" href="https://htmlacademy.ru/" target="_blank" title="Тесты">Тесты</a>
                           </td>
                         </tr>
+
                         <tr>
                           <td>
-                            <a class="menu__link" href="https://htmlacademy.ru/" target="_blank" title="Обучающие курсы">Обучающие курсы</a>
+                            <a class="useful-list__link" href="https://htmlacademy.ru/" target="_blank" title="Наш блог">Наш блог</a>
                           </td>
                         </tr>
+
                         <tr>
                           <td>
-                            <a class="menu__link" href="https://htmlacademy.ru/" target="_blank" title="Тесты">Тесты</a>
+                            <a class="useful-list__link" href="https://htmlacademy.ru/" target="_blank" title="Истории студентов">Истории студентов</a>
                           </td>
                         </tr>
-                        <tr>
-                          <td>
-                            <a class="menu__link" href="https://htmlacademy.ru/" target="_blank" title="Наш блог">Наш блог</a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <a class="menu__link" href="https://htmlacademy.ru/" target="_blank" title="Истории студентов">Истории студентов</a>
-                          </td>
-                        </tr>
+
                       </table>
+                      <!--/FOOTER__USEFUL-->
 
                     </td>
                   </tr>
                 </table>
+                <!--/FOOTER-->
 
               </td>
             </tr>
           </table>
+          <!--/BODY-->
 
+          <!--DESCRIPTION-->
           <table class="wrapper__description description">
             <tr>
               <td>
@@ -365,10 +466,12 @@
               </td>
             </tr>
           </table>
+          <!--/DESCRIPTION-->
 
         </td>
       </tr>
     </table>
+    <!--/WRAPPER-->
   </div>
 
 </body>
