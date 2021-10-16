@@ -9,19 +9,6 @@
   <title>Welcome</title>
 
   <style>
-    * {
-      margin-top: 0;
-      margin-right: 0;
-      margin-bottom: 0;
-      margin-left: 0;
-
-      padding-top: 0;
-      padding-right: 0;
-      padding-bottom: 0;
-      padding-left: 0;
-
-      box-sizing: border-box;
-    }
 
     table {
       width: 100%;
@@ -30,577 +17,401 @@
       border-spacing: 0;
     }
 
-    img {
-      width: 100%;
-      height: auto;
-    }
-
-    .logo {
-      display: inline-block;
-      width: 140px;
-      height: 24px;
-    }
-
-    .welcome__img {
-      display: inline-block;
-      width: 175px;
-      height: 269px;
-    }
-
-    .host__photo {
-      display: inline-block;
-      width: 88px;
-      height: 88px;
-    }
-
-    .section-picture__img {
-      display: inline-block;
-      width: 273px;
-      height: 290px;
-    }
-
-    .social__icon {
-      display: inline-block;
-      width: 24px;
-      height: 24px;
-    }
-
   </style>
 
 </head>
 <body>
   <div>
-    <!--WRAPPER-->
+    <!-- Main wrapper -->
     <table class="wrapper">
       <tr>
         <td>
 
-          <!--LOGO-->
-          <table class="wrapper__logo">
+          <!-- Logo -->
+          <table>
             <tr>
               <td>
-                <a class="logo" href="https://htmlacademy.ru" target="_blank" title="Логотип">
-                  <img src="img/logo.png" alt="Логотип">
+                <a href="#" target="_blank">
+                  <img src="img/logo.png" alt="https://htmlacademy.ru/" width="140" height="24">
                 </a>
               </td>
             </tr>
           </table>
-          <!--/LOGO-->
 
-          <!--NAV-->
-          <table class="wrapper__nav nav">
+          <!-- Menu -->
+          <table>
             <tr>
               <td>
-
-                <table class="nav__item">
+                <table>
                   <tr>
-                    <td><a class="nav__link nav__link_red" href="https://htmlacademy.ru/" target="_blank" title="КУРСЫ"><b>КУРСЫ</b></a></td>
+                    <td>
+                      <a href="https://htmlacademy.ru/" target="_blank"><b>КУРСЫ</b></a>
+                    </td>
                   </tr>
                 </table>
 
-                <table class="nav__item">
+                <table>
                   <tr>
-                    <td><a class="nav__link nav__link_blue" href="https://htmlacademy.ru/" target="_blank" title="ВЕБИНАРЫ"><b>ВЕБИНАРЫ</b></a></td>
+                    <td>
+                      <a href="https://htmlacademy.ru/" target="_blank"><b>ВЕБИНАРЫ</b></a>
+                    </td>
                   </tr>
                 </table>
 
-                <table class="nav__item">
+                <table>
                   <tr>
-                    <td><a class="nav__link nav__link_blue-light" href="https://htmlacademy.ru/" target="_blank" title="О ШКОЛЕ"><b>О ШКОЛЕ</b></a></td>
+                    <td>
+                      <a href="https://htmlacademy.ru/" target="_blank"><b>О ШКОЛЕ</b></a>
+                    </td>
                   </tr>
                 </table>
 
-                <table class="nav__item">
+                <table>
                   <tr>
-                    <td><a class="nav__link nav__link_yellow" href="https://htmlacademy.ru/" target="_blank" title="РАСПРОДАЖА"><b>РАСПРОДАЖА</b></a></td>
+                    <td>
+                      <a href="https://htmlacademy.ru/" target="_blank"><b>РАСПРОДАЖА</b></a>
+                    </td>
                   </tr>
                 </table>
-
               </td>
             </tr>
           </table>
-          <!--/NAV-->
 
-          <!--WELCOME-->
-          <table class="wrapper__welcome welcome">
+          <!-- Intro -->
+          <table>
             <tr>
               <td>
-
-                <!--WELCOME__TEXT-->
-                <table class="welcome__item welcome__item_text">
-
+                <!-- intro text -->
+                <table>
                   <tr>
                     <td>
-                      <h3 class="welcome__title">Здравствуйте, {{name}}</h3>
+                      <h2><b>Здравствуйте, {{name}}</b></h2>
                     </td>
                   </tr>
 
                   <tr>
                     <td>
-                      <p class="welcome__text">Благодарим вас за регистрацию на курс «Начальный html+css».
-                        <br>
-                        Курс стартует 1 июля в 17.00
-                        по московскому времени.
-                        Письма
-                        со ссылками для входа в кабинет придут на
-                        указанную почту за день до старта курса.
+                      <p>Благодарим вас за регистрацию на курс «Начальный html+css». <br> Курс стартует 1 июля в 17.00 по московскому времени. Письма со ссылками для входа в кабинет придут на указанную почту за день до старта курса.
                       </p>
                     </td>
                   </tr>
-
                 </table>
-                <!--/WELCOME__TEXT-->
 
-                <!--WELCOME__PICTURE-->
-                <table class="welcome__item welcome__item_picture">
+                <!-- intro img -->
+                <table>
                   <tr>
                     <td>
-                      <a class="welcome__img" href="#" target="_blank" title="Picture">
-                        <img src="img/img_1.png" alt="Picture">
-                      </a>
+                      <img src="img/img_1.png" alt="#" width="175" height="269">
                     </td>
                   </tr>
                 </table>
-                <!--/WELCOME__PICTURE-->
-
               </td>
             </tr>
           </table>
-          <!--/WELCOME-->
 
-          <!--ABOUT-->
-          <table class="wrapper__about about">
+          <!-- About -->
+          <table>
             <tr>
               <td>
-                <h2 class="about__title title title_orange">Что вас ждет на курсе</h2>
+                <h2><b>Что вас ждет на курсе</b></h2>
               </td>
             </tr>
-
             <tr>
               <td>
-                <p class="about__text">
-                  Вы будете изучать теорию и методику на примере учебного проекта, который разработали наши эксперты. А применить полученные знания на практике вы сможете, выполняя задания по личному проекту.
-                </p>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <p class="about__text">
+                <p>Вы будете изучать теорию и методику на примере учебного проекта, который разработали наши эксперты. А применить полученные знания на практике вы сможете, выполняя задания по личному проекту.
+                  <br> <br>
                   В этом вам будет помогать наставник - опытный специалист, который проверит домашние задания и поделится секретами мастерства. А если у вас останутся вопросы, наставник сможет ответить на них на консультации.
-                </p>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <p class="about__text">
+                  <br> <br>
                   После завершения курса вам нужно будет подготовить свой проект к защите — убедиться, что он реализован
                   в соответствии с техническим заданием.
-                </p>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <p class="about__text">
-                  Желаем вам продуктивной работы на интенсиве и успешной защиты. У вас всё получится, мы в вас верим!
-                </p>
-              </td>
-            </tr>
-
-          </table>
-          <!--/ABOUT-->
-
-          <!--HOST-->
-          <table class="wrapper__host host">
-
-            <!--HOST__TITLE-->
-            <tr>
-              <td>
-                <h3 class="host__title title title_blue-light">Ведущие курса</h3>
-              </td>
-            </tr>
-            <!--/HOST__TITLE-->
-
-            <!--HOST__ITEMS-->
-            <tr>
-              <td>
-
-                <!--HOST__ITEM 1-->
-                <table class="host__item">
-                  <tr>
-                    <td>
-                      <a class="host__photo" href="#" target="_blank" title="Антон Громов">
-                        <img src="img/portrait2.png" alt="Антон Громов">
-                      </a>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <p class="host__name">
-                        <b>Антон Громов</b>
-                        Фронтенд-разработчик в Cats Development
-                      </p>
-                    </td>
-                  </tr>
-                </table>
-                <!--/HOST__ITEM 1-->
-
-                <!--HOST__ITEM 2-->
-                <table class="host__item">
-                  <tr>
-                    <td>
-                      <a class="host__photo" href="#" target="_blank" title="Илья Раменский">
-                        <img src="img/portrait3.png" alt="Илья Раменский">
-                      </a>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <p class="host__name">
-                        <b>Илья Раменский</b>
-                        Team Lead в Lizard Software
-                      </p>
-                    </td>
-                  </tr>
-                </table>
-                <!--/HOST__ITEM 2-->
-
-                <!--HOST__ITEM 3-->
-                <table class="host__item">
-                  <tr>
-                    <td>
-                      <a class="host__photo" href="#" target="_blank" title="Игнатий Чубаров">
-                        <img src="img/portrait4.png" alt="Игнатий Чубаров">
-                      </a>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <p class="host__name">
-                        <b>Игнатий Чубаров</b>
-                        Преподаватель IT в РУИТ
-                      </p>
-                    </td>
-                  </tr>
-                </table>
-                <!--/HOST__ITEM 3-->
-
-              </td>
-            </tr>
-            <!--HOST__ITEMS-->
-
-          </table>
-          <!--/HOST-->
-
-          <!--OTHER-->
-          <table class="wrapper__other other">
-
-            <!--OTHER__TITLE-->
-            <tr>
-              <td>
-                <h3 class="other__title title title_blue">Другие мероприятия</h3>
-              </td>
-            </tr>
-            <!--/OTHER__TITLE-->
-
-            <!--OTHER__ITEMS-->
-            <tr>
-              <td>
-
-                <!--OTHER__ITEM 1-->
-                <table class="other__item">
-                  <tr>
-                    <td>
-                      <h4 class="other__subtitle">Тренды frontend-разработки</h4>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <p class="other__date"><b>20 июня, 17:00</b></p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <p class="other__info">Самые многообещающие направления развития фронтенда в 2020 году</p>
-                    </td>
-                  </tr>
-                </table>
-                <!--/OTHER__ITEM 1-->
-
-                <!--OTHER__ITEM 2-->
-                <table class="other__item">
-                  <tr>
-                    <td>
-                      <h4 class="other__subtitle">Figma vs Photoshop</h4>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <p class="other__date"><b>21 июня, 17:00</b></p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <p class="other__info">Почему давно пора отказаться от последнего?</p>
-                    </td>
-                  </tr>
-                </table>
-                <!--/OTHER__ITEM 2-->
-
-                <!--OTHER__ITEM 3-->
-                <table class="other__item">
-                  <tr>
-                    <td>
-                      <h4 class="other__subtitle">Что такое Git и как его использовать?</h4>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <p class="other__date"><b>22 июня, 17:00</b></p>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <p class="other__info">Разберем тонкости использования самой популярной системы контроля версий.</p>
-                    </td>
-                  </tr>
-                </table>
-                <!--/OTHER__ITEM 3-->
-
-              </td>
-            </tr>
-            <!--/OTHER__ITEMS-->
-
-            <!--OTHER__MORE-->
-            <tr>
-              <td>
-                <a class="btn btn_orange" href="https://htmlacademy.ru/intensive" target="_blank" title="Все мероприятия">Все мероприятия</a>
-              </td>
-            </tr>
-            <!--/OTHER__MORE-->
-
-          </table>
-          <!--/OTHER-->
-
-          <!--SECTION-PICTURE-->
-          <table class="wrapper__picture section-picture">
-            <tr>
-              <td>
-                <a class="section-picture__img" href="#" target="_blank" title="Картинка">
-                  <img src="img/img_2.png" alt="Картинка">
-                </a>
+                  <br> <br>
+                  Желаем вам продуктивной работы на интенсиве и успешной защиты. У вас всё получится, мы в вас верим!</p>
               </td>
             </tr>
           </table>
-          <!--/SECTION-PICTURE-->
 
-          <!--FOOTER-->
-          <table class="wrapper__footer footer">
+          <!-- Persons -->
+          <table>
             <tr>
               <td>
 
-                <!--FOOTER__INFO-->
-                <table class="footer__info">
+                <table>
+                  <tr>
+                    <td>
+                      <h2><b>Ведущие курса</b></h2>
+                    </td>
+                  </tr>
+                </table>
+
+                <table>
                   <tr>
                     <td>
 
-                      <!--FOOTER__SOCIAL-->
-                      <table class="footer__social social">
-
-                        <!--SOCIAL__TITLE-->
+                      <table>
                         <tr>
                           <td>
-                            <h4 class="social__title">Мы в социальных сетях</h4>
+                            <img src="img/portrait2.png" alt="#" width="88" height="88">
                           </td>
                         </tr>
-                        <!--/SOCIAL__TITLE-->
-
-                        <!--SOCIAL__ICONS-->
-                        <tr>
-
-                          <!--SOCIAL__ITEM 1-->
-                          <td>
-                            <table class="social__item">
-                              <tr>
-                                <td>
-                                  <a class="social__icon" href="https://www.facebook.com/" target="_blank" title="facebook">
-                                    <img src="img/social/facebook.png" alt="facebook">
-                                  </a>
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                          <!--/SOCIAL__ITEM 1-->
-
-                          <!--SOCIAL__ITEM 2-->
-                          <td>
-                            <table class="social__item">
-                              <tr>
-                                <td>
-                                  <a class="social__icon" href="https://www.instagram.com/" target="_blank" title="instagram">
-                                    <img src="img/social/inst.png" alt="instagram">
-                                  </a>
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                          <!--/SOCIAL__ITEM 2-->
-
-                          <!--SOCIAL__ITEM 3-->
-                          <td>
-                            <table class="social__item">
-                              <tr>
-                                <td>
-                                  <a class="social__icon" href="https://www.youtube.com/" target="_blank" title="youtube">
-                                    <img src="img/social/youtube.png" alt="youtube">
-                                  </a>
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                          <!--/SOCIAL__ITEM 3-->
-
-                          <!--SOCIAL__ITEM 4-->
-                          <td>
-                            <table class="social__item">
-                              <tr>
-                                <td>
-                                  <a class="social__icon" href="https://web.telegram.org/" target="_blank" title="telegram">
-                                    <img src="img/social/telegram.png" alt="telegram">
-                                  </a>
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                          <!--/SOCIAL__ITEM 4-->
-
-                          <!--SOCIAL__ITEM 5-->
-                          <td>
-                            <table class="social__item">
-                              <tr>
-                                <td>
-                                  <a class="social__icon" href="https://vk.com/" target="_blank" title="vkontakte">
-                                    <img src="img/social/vk.png" alt="vkontakte">
-                                  </a>
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                          <!--/SOCIAL__ITEM 5-->
-
-                        </tr>
-                        <!--/SOCIAL__ICONS-->
-
-                      </table>
-                      <!--/FOOTER__SOCIAL-->
-
-                      <!--FOOTER__CONTACTS-->
-                      <table class="footer__contacts contacts">
                         <tr>
                           <td>
-                            <h4 class="contacts__title">Свяжитесь с нами</h4>
-                          </td>
-                        </tr>
-
-                        <tr>
-                          <td>
-                            <a class="contacts__link" href="mailto:study@htmlacademy.ru" target="_blank" title="html academy email">study@htmlacademy.ru</a>
-                          </td>
-                        </tr>
-
-                        <tr>
-                          <td>
-                            <a class="contacts__link" href="tel:88006907668" target="_blank" title="html academy phone">8-800-690-76-68</a>
+                            <p><b>Антон Громов</b> <br> Фронтенд-разработчик в Cats Development</p>
                           </td>
                         </tr>
                       </table>
-                      <!--/FOOTER__CONTACTS-->
+
+                      <table>
+                        <tr>
+                          <td>
+                            <img src="img/portrait3.png" alt="#" width="88" height="88">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p><b>Илья Раменский</b> <br> Team Lead в Lizard Software</p>
+                          </td>
+                        </tr>
+                      </table>
+
+                      <table>
+                        <tr>
+                          <td>
+                            <img src="img/portrait4.png" alt="#" width="88" height="88">
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p><b>Игнатий Чубаров</b> <br> Преподаватель IT в РУИТ</p>
+                          </td>
+                        </tr>
+                      </table>
 
                     </td>
                   </tr>
                 </table>
-                <!--/FOOTER__INFO-->
 
-                <!--FOOTER__USEFUL-->
-                <table class="footer__useful useful-list">
-
+                <table>
                   <tr>
                     <td>
-                      <h4 class="useful-list__title">Полезные ссылки</h4>
+                      <p>Пока вы ждёте начала курса, вам могут быть интересны вебинары на разные темы, которые проходят на платформе ежедневно.</p>
                     </td>
                   </tr>
-
-                  <tr>
-                    <td>
-                      <a class="useful-list__link" href="https://htmlacademy.ru/" target="_blank" title="Бесплатные вебинары">Бесплатные вебинары</a>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <a class="useful-list__link" href="https://htmlacademy.ru/" target="_blank" title="Обучающие курсы">Обучающие курсы</a>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <a class="useful-list__link" href="https://htmlacademy.ru/" target="_blank" title="Тесты">Тесты</a>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <a class="useful-list__link" href="https://htmlacademy.ru/" target="_blank" title="Наш блог">Наш блог</a>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>
-                      <a class="useful-list__link" href="https://htmlacademy.ru/" target="_blank" title="Истории студентов">Истории студентов</a>
-                    </td>
-                  </tr>
-
                 </table>
-                <!--/FOOTER__USEFUL-->
 
               </td>
             </tr>
           </table>
-          <!--/FOOTER-->
 
-          <!--DESCRIPTION-->
-          <table class="wrapper__description description">
+          <!-- Other activities -->
+          <table>
             <tr>
               <td>
-                <p class="description__text">Вы получили это письмо, так как являетесь пользователем портала HTMLPlay.
-                  Рассылка производится в соответствии с пользовательским соглашением.
-                  Если вы не хотите получать рассылку, вы можете <a href="#" target="_blank" title="отписаться">отписаться</a> или
-                  <a href="#" target="_blank" title="настроить параметры">настроить параметры.</a>
-                  <br>
-                  <br>
-                  Если письмо отображается некорректно или вы хотите им поделиться, <a href="#" target="_blank" title="поделиться">жмите сюда.</a>
+
+                <table>
+                  <tr>
+                    <td>
+                      <h2><b>Другие мероприятия</b></h2>
+                    </td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <td>
+                      <h3><b>Тренды frontend-разработки</b></h3>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><b>20 июня, 17:00</b></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Самые многообещающие направления развития фронтенда в 2020 году</p>
+                    </td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <td>
+                      <h3><b>Figma vs Photoshop</b></h3>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><b>21 июня, 17:00</b></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Почему давно пора отказаться от последнего?</p>
+                    </td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <td>
+                      <h3><b>Что такое Git и как его использовать?</b></h3>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p><b>22 июня, 17:00</b></p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Разберем тонкости использования самой популярной системы контроля версий.</p>
+                    </td>
+                  </tr>
+                </table>
+
+                <table>
+                  <tr>
+                    <td>
+                      <a href="https://htmlacademy.ru/intensive" target="_blank">Все мероприятия</a>
+                    </td>
+                  </tr>
+                </table>
+
+              </td>
+            </tr>
+          </table>
+
+          <!-- Img -->
+          <table>
+            <tr>
+              <td>
+                <img src="img/img_2.png" alt="#" width="274" height="290">
+              </td>
+            </tr>
+          </table>
+
+          <!-- Footer -->
+          <table>
+            <tr>
+              <td>
+                <!-- footer social and contacts -->
+                <table>
+                  <tr>
+                    <td>
+                      <h3><b>Мы в социальных сетях</b></h3>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a href="https://www.facebook.com/" target="_blank" title="facebook">
+                        <img src="img/social/facebook.png" alt="facebook" width="24" height="24">
+                      </a>
+                    </td>
+
+                    <td>
+                      <a href="https://www.instagram.com/" target="_blank" title="instagram">
+                        <img src="img/social/inst.png" alt="instagram" width="24" height="24">
+                      </a>
+                    </td>
+
+                    <td>
+                      <a href="https://www.youtube.com/" target="_blank" title="youtube">
+                        <img src="img/social/youtube.png" alt="youtube" width="24" height="24">
+                      </a>
+                    </td>
+
+                    <td>
+                      <a href="https://web.telegram.org/" target="_blank" title="telegram">
+                        <img src="img/social/telegram.png" alt="telegram" width="24" height="24">
+                      </a>
+                    </td>
+
+                    <td>
+                      <a href="https://vk.com/" target="_blank" title="vkontakte">
+                        <img src="img/social/vk.png" alt="vkontakte" width="24" height="24">
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <h3><b>Свяжитесь с нами</b></h3>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a href="mailto:study@htmlacademy.ru" target="_blank">study@htmlacademy.ru</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a href="tel:88006907668" target="_blank">8-800-690-76-68</a>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- footer useful links -->
+                <table>
+                  <tr>
+                    <td>
+                      <h3><b>Полезные ссылки</b></h3>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a href="https://htmlacademy.ru/" target="_blank">Бесплатные вебинары</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a href="https://htmlacademy.ru/" target="_blank">Обучающие курсы</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a href="https://htmlacademy.ru/" target="_blank">Тесты</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a href="https://htmlacademy.ru/" target="_blank">Наш блог</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <a href="https://htmlacademy.ru/" target="_blank">Истории студентов</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+          <br>
+          <hr>
+          <br>
+
+          <!-- About the newsletter -->
+          <table>
+            <tr>
+              <td>
+                <p>Вы получили это письмо, так как являетесь пользователем портала HTMLPlay. Рассылка производится в соответствии с пользовательским соглашением. Если вы не хотите получать рассылку, вы можете <u>отписаться</u> или настроить <u>параметры.</u> <br> Если письмо отображается некорректно или вы хотите им поделиться, <u>жмите сюда.</u>
                 </p>
               </td>
             </tr>
           </table>
-          <!--/DESCRIPTION-->
 
         </td>
       </tr>
     </table>
-    <!--/WRAPPER-->
   </div>
-
 </body>
 </html>
